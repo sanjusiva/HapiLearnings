@@ -1,0 +1,13 @@
+
+Query string:
+    http://localhost:3000/query?details[name][nick]=baz&details[name][real]=faz
+    output : 
+        {
+        "details": {
+            "name": {
+                "nick": "baz",
+                "real": "faz"
+            }
+        }
+    }
+
